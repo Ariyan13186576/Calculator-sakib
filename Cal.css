@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(203, 250, 250);
+    text-align: center;
+}
+.cal{
+    transform: translate(120%,15%);
+    text-align: center;
+    border-radius: 10px;
+    height: 530px;
+    width: 360px;
+    background-color: black;
+}
+
+
+
+.btn-0{
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 320px;
+    height: 66px;
+    margin-bottom: 7px;
+}
+.btn-1{
+    font-size: 33px;
+    text-align: center;
+    margin: 5px;
+    height: 75px;
+    width: 70px;
+    color: black;
+    background-color: rgb(0, 255, 38);
+    border-radius: 12px;
+    border: 2px solid blue;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.btn-1:hover{
+    background-color: yellow;
+    color: black;
+}
+
