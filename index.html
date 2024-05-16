@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="Cal.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/174/174298.png">
 </head>
-<!-- Sakib -->
 
 <body>
 <div class="all">
@@ -14,22 +14,24 @@
         <form action="" name="clc">
         <input class="btn-0" name="disply" type="text">
 
-            <input type="button" class="btn-1" value="AC" onclick="clc.disply.value =''">
+            <input type="button" class="btn-1" value="AC" onclick="clc.disply.value =''" style="background-color: red; color: white;font-size: 25px;">
 
-            <input type="button" class="btn-1" value="DEL" onclick="clc.disply.value = clc.disply.value.slice(0, -1)">
+            <input type="button" class="btn-1" value="DEL" onclick="clc.disply.value = clc.disply.value.slice(0, -1)" style="background-color: blue; color: white; font-size: 25px;">
 
 
-            <input type="button" class="btn-1" value="%"onclick="clc.disply.value +='%'">
+            <input type="button" class="btn-1" value="%"onclick="clc.disply.value +='%'"
+            style="background-color: rgb(183, 255, 0);">
 
-            <input type="button" class="btn-1" value="&#247" onclick="clc.disply.value +='/'"><br>
+            <input type="button" class="btn-1" value="&#247" onclick="clc.disply.value +='/'"
+            style="background-color: aqua;"><br>
 
-            <input type="button" class="btn-1" value="7" onclick="clc.disply.value +='7'">
+            <input type="button" class="btn-1" value="7" onclick="clc.disply.value +='7'" >
 
             <input type="button" class="btn-1" value="8" onclick="clc.disply.value +='8'">
 
             <input type="button" class="btn-1" value="9" onclick="clc.disply.value +='9'">
 
-            <input type="button" class="btn-1" value="*" onclick="clc.disply.value +='*'"><br>
+            <input type="button" class="btn-1" value="*" onclick="clc.disply.value +='*'" style="background-color: rgb(174, 0, 255);"><br>
 
             <input type="button" class="btn-1" value="4" onclick="clc.disply.value +='4'">
 
@@ -45,13 +47,14 @@
 
             <input type="button" class="btn-1" value="3" onclick="clc.disply.value +='3'">
 
-            <input type="button" class="btn-1" value="+" onclick="clc.disply.value +='+'"><br>
+            <input type="button" class="btn-1" value="+" onclick="clc.disply.value +='+'" style="background-color: rgb(255, 204, 0);"><br>
 
             <input type="button" class="btn-1" value="0" onclick="clc.disply.value +='0'" style="width:155px ;">
 
-            <input type="button" class="btn-1" value="." onclick="clc.disply.value +='.'">
+            <input type="button" class="btn-1" value="." onclick="clc.disply.value +='.'" style="background-color: rgb(0, 255, 255);">
 
-            <input type="button" class="btn-1" value="=" onclick="clc.disply.value =eval(clc.disply.value)">
+            <input type="button" class="btn-1" value="=" onclick="clc.disply.value =eval(clc.disply.value)"
+            style="background-color: rgb(255, 0, 170);">
 
 
         </div>
